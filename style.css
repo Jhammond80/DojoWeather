@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.topContainer{
+    height: 75px;
+    margin: 0px auto;
+    background-color: rgb(159,197,248);
+}
+.dojoNavBar, .tempSelect{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px auto;
+    color: white;
+    
+}
+
+h1{
+    padding-left: 25px;
+    font-size: 45px;
+}
+
+ul{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.bottomContainer{
+    width: 80%;
+    margin: 0px auto;
+}
+h2{
+    font-size: 35px;
+    
+}
+
+.tempSelect{
+    width: 95%;
+    height: 75px;
+    border-bottom: 2pt solid black;
+    margin-bottom: 20px;
+    color: black;
+}
+
+/* weather boxes */
+
+.weatherBoxes{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+.today, .tomorrow, .friday, .saturday{
+    height: 300px;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 20px;
+    background-color: rgb(238,238,238);
+    
+}
+
+.tempDisplay{
+    width: 75%;
+    padding: 0px 25px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+#temp1, #temp3, #temp5, #temp7{
+    color: red;
+}
+#temp2, #temp4, #temp6, #temp8{
+    color: blue;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.cookieBox{
+    border: 2pt solid black;
+    width: 75%;
+    margin-left: 20px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 10px;
+}
+
+#read{
+    color: black;
+    font-size: 16px;
+}
+
+button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(159,197,248);
+    box-shadow: 2px 2px 5px black;
+}
+
